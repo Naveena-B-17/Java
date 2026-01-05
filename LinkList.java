@@ -8,12 +8,14 @@ public class LinkList {
 		ll.add(0);
 		ll.add(3);
 		ll.add(7);
+		ll.addLast(9);
 		ll.add(8);
 		ll.add(3);
 		ll.add(5);
-		ll.add(1);
+		ll.addFirst(1);
 		ll.remove(1);
 		ll.remove();
+		ll.removeFirst();
 		ll.removeLast();
 		ll.removeFirstOccurrence(8);
 		ll.removeLastOccurrence(3);
@@ -26,3 +28,4 @@ public class LinkList {
 		}
 	
 }
+
