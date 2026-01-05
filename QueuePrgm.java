@@ -4,7 +4,7 @@ import java.util.Queue;
 public class QueuePrgm {
 	public static void main(String[] args) {
 		Queue<String>q=new LinkedList<>();
-		q.add("A");
+		q.add("A");// even we can use .offer() to add elements
 		q.add("B");
 		q.add("C");
 		q.add("D");
@@ -22,4 +22,5 @@ public class QueuePrgm {
 		q.clear();
 		System.out.println(q);
 	}
+
 }
