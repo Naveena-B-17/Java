@@ -17,9 +17,12 @@ public class LinkList {
 		ll.remove();
 		ll.removeFirst();
 		ll.removeLast();
+		ll.set(0,100);
 		ll.removeFirstOccurrence(8);
 		ll.removeLastOccurrence(3);
 		System.out.println(ll);
+		System.out.println(ll.contains(100);
+		System.out.println(ll..get(1););
 		System.out.println(ll.size());
 		System.out.println(ll.isEmpty());
 		System.out.println(ll.indexOf(7));
@@ -28,4 +31,5 @@ public class LinkList {
 		}
 	
 }
+
 
